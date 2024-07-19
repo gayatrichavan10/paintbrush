@@ -5,8 +5,9 @@ function setup() {
   
   strokeWeight(10);
   
-  stroke("purple");
+  stroke("blue");
   frameRate("50");
+  nostroke();
 }
 
 function draw() {
@@ -14,5 +15,5 @@ function draw() {
   let posY = mouseX;
   let posX = mouseY;
   
-  point(posY,posX)
+  fill(posY,posX,56,60,98)
 }
