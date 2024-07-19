@@ -15,5 +15,5 @@ function draw() {
   let posY = mouseX;
   let posX = mouseY;
   
-  fill(posY,posX,56,60,98)
+  rect(posY,posX,56,60,98)
 }
