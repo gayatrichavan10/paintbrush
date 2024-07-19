@@ -7,7 +7,7 @@ function setup() {
   
   stroke("blue");
   frameRate("50");
-  nostroke();
+  noStroke();
 }
 
 function draw() {
